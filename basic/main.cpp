@@ -12,12 +12,18 @@ int Factorial(int _iNum)
 	return result;
 }
 
+// 재귀함수
+int Factorial_Re(int _iNum)
+{
+	if(1 == _iNum) {
+		return 1;
+	}
+	return _iNum * Factorial_Re(_iNum-1);
+}
 
-// i = 4
-// 1 * 2 * 3 * 4
 int main()
 {
-	int result = Factorial(4);
+	int result = Factorial_Re(4);
 	printf("Result : %d\n", result);
 
 	return 0;
