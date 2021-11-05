@@ -57,5 +57,10 @@ int main()
 	int result = Fibonacci_Re(5);
 	printf("Result : %d\n", result);
 
+	//배열
+	int iArray[10] = {};
+
+
+
 	return 0;
 }
