@@ -1,66 +1,28 @@
 ﻿#include <stdio.h>
 
-
-int Factorial(int _iNum)
+typedef struct _tagMyST
 {
-	int result = 1;
+	int a;
+	float b;
+}MYST;
 
-	for (int j = 0; j < _iNum - 1; ++j)
-	{
-		result *= (j + 2);
-	}
-	return result;
-}
-
-// 재귀함수
-int Factorial_Re(int _iNum)
+typedef struct _tagBig
 {
-	if(1 == _iNum) {
-		return 1;
-	}
-	return _iNum * Factorial_Re(_iNum-1);
-}
-
-// 피보나치 수열
-// 1 1 2 3 5 8 13 21 34 55........................
-int Fibonacci(int _iNum)
-{
-	int temp = 1;
-	int result = 1;
-	if(1 == _iNum || 2 == _iNum)
-	{
-		return 1;
-	}
-
-	for(int i=2; i<_iNum; i++)
-	{
-		int x = result;
-		result = temp + result;
-		temp = x;
-	}
-	return result;
-}
-
-int Fibonacci_Re(int _iNum)
-{
-	if(1 == _iNum || 2 == _iNum)
-	{
-		return 1;
-	}
-
-	return Fibonacci_Re(_iNum - 1) + Fibonacci_Re(_iNum - 2);
-}
-
+	MYST k;
+	int i;
+	char c;
+}BIG;
 
 int main()
 {
-	int result = Fibonacci_Re(5);
-	printf("Result : %d\n", result);
+	MYST t = { 100, 3.14f};
 
-	//배열
-	int iArray[10] = {};
+	sizeof(t);
 
+	t.a = 10;
+	t.b = 10.1234f;
 
+	sizeof(t);
 
 	return 0;
 }
