@@ -1,28 +1,24 @@
 ﻿#include <stdio.h>
 
-typedef struct _tagMyST
-{
-	int a;
-	float b;
-}MYST;
+// ====== 변수의 종류
+// 전역변수
+// 지역변수
+// 정적변수
+// 외부변수
 
-typedef struct _tagBig
-{
-	MYST k;
-	int i;
-	char c;
-}BIG;
+// ===== 메모리 영역
+// 스택 영역
+// 데이터 영역
+// 읽기 전용(코드, ROM)
+// 힙 역역
+
+// 전역변수
+int g_i = 0; // Data 영역
 
 int main()
 {
-	MYST t = { 100, 3.14f};
-
-	sizeof(t);
-
-	t.a = 10;
-	t.b = 10.1234f;
-
-	sizeof(t);
-
+	// 지역변수
+	int i = 1;
+	
 	return 0;
 }
