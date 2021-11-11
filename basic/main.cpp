@@ -15,10 +15,18 @@
 // 전역변수
 int g_i = 0; // Data 영역
 
+void Test()
+{
+	++g_i;
+}
+
+
 int main()
 {
 	// 지역변수
-	int i = 1;
+	Test();
+	Test();
+
 	
 	return 0;
 }
