@@ -17,18 +17,11 @@
 // 전역변수
 int g_i = 0; // Data 영역
 
-void Test()
-{
-	++g_i;
-}
-
+#include "func.h"
 
 int main()
 {
-	// 지역변수
-	Test();
-	Test();
+	int result = Add(1, 5);
 
-	
 	return 0;
 }
