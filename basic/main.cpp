@@ -15,13 +15,16 @@
 // 힙 역역
 
 // 전역변수
-int g_i = 0; // Data 영역
+int g_i = 0;
+// 정적변수
 
 #include "func.h"
+#include "common.h"
 
 int main()
 {
-	int result = Add(1, 5);
+	++g_iStatic;
+	printf("%d", g_iStatic);
 
 	return 0;
 }
