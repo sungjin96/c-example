@@ -1,26 +1,16 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-#include "common.h"
-#include "func.h"
 
 
 int main()
 {
-	g_iExtern = 100;
-
-	int result = Add(1, 3);
-	printf("Test %d\n", g_iExtern);
-	printf("result %d", result);
-
 	// 포인터 변수
-	// 주소를 가리키는 변수
-	int i = 100;
-	float f = 1.1f;
+	// 자료형 변수명
+	int* pInt = nullptr;
 
-	float* pFloat = &f;
-	int* pInt = &i;
-
-	*pInt = 200;
+	char* pChar = nullptr;
+	short* pShort = nullptr;
 
 	return 0;
 }
