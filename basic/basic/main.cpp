@@ -33,5 +33,17 @@ int main()
 	*(iArr) = 10;	  // iArr[0] = 10;
 	*(iArr + 1) = 20; // iArr[1] = 20;
 
+
+	short sArr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	int* pI = (int*)sArr;
+	int iData = *((short*)(pI + 2));
+	printf("1 : %d\n", iData);
+
+	char cArr[2] = { 1, 1 };
+	short* pS = (short*)cArr;
+	iData = *pS;
+	printf("2 : %d\n", iData);
+
+
 	return 0;
 }
