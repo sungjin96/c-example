@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void Test(int* a)
+{
+	*a = 500;
+}
 
 
 int main()
@@ -43,6 +47,13 @@ int main()
 	short* pS = (short*)cArr;
 	iData = *pS;
 	printf("2 : %d\n", iData);
+
+	int a = 100;
+	Test(&a);
+	printf("3 : %d\n", a);
+
+	const int cInt = 100;
+
 
 
 	return 0;
