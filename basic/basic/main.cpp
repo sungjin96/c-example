@@ -1,15 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void Output(const int* PI)
-{
-
-}
-
 int main()
 {
-	int a = 100;
-	Output(&a);
+	void* pVoid = nullptr;
+	float* pFloat = nullptr;
+
+	{
+		int a = 0;
+		float f = 0.f;
+		double d = 0;
+		long long ll = 0;
+
+		pVoid = &a;
+		pVoid = &f;
+		pVoid = &d;
+		pVoid = &ll;
+	}
 
 	return 0;
 }
