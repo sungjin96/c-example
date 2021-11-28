@@ -3,20 +3,10 @@
 
 int main()
 {
-	void* pVoid = nullptr;
-	float* pFloat = nullptr;
+	char c = 1;
+	bool b = 1;
 
-	{
-		int a = 0;
-		float f = 0.f;
-		double d = 0;
-		long long ll = 0;
-
-		pVoid = &a;
-		pVoid = &f;
-		pVoid = &d;
-		pVoid = &ll;
-	}
+	int i = 0;
 
 	return 0;
 }
