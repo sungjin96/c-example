@@ -3,10 +3,8 @@
 
 int main()
 {
-	char c = 1;
-	bool b = 1;
-
-	int i = 0;
+	char szTest[10] = "abc한글";
+	wchar_t szTestW[10] = L"abc한글";
 
 	return 0;
 }
