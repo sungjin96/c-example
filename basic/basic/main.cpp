@@ -1,10 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+typedef struct _tagMyST
+{
+	int a;
+	float f;
+}MYST;
+
 int main()
 {
-	char szTest[10] = "abc한글";
-	wchar_t szTestW[10] = L"abc한글";
+	// 구조체와 포인터
+	MYST s = {};
+
+	MYST* pST = &s;
+
+	(*pST).a = 100;
 
 	return 0;
 }
