@@ -15,6 +15,8 @@ int main()
 	MYST* pST = &s;
 
 	(*pST).a = 100;
+	pST->a = 101;
+	pST->f = 3.14f;
 
 	return 0;
 }
