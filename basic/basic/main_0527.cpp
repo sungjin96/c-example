@@ -8,9 +8,25 @@
 
 int main()
 {
-	int* pInt = (int*)malloc(100);
-	
-	float* pF = (float*)malloc(4);
+	// 동적 할당
+	// 1. 런타임 중에 대응 가능
+	// 2. 
+
+	int iInput = 0;
+	scanf_s("%d", &iInput);
+
+	int* pInt = nullptr;
+
+	if (100 == iInput)
+	{
+		pInt = (int*)malloc(100);
+	}
+
+	if (nullptr != pInt)
+	{
+		free(pInt);
+	}
+
 
 	return 0;
 }
