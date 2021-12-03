@@ -1,5 +1,7 @@
 #include <iostream>
 
+
+#include "Arr.h"
 // 메모리 영역
 // 스택
 // 데이터
@@ -10,7 +12,6 @@ int main()
 {
 	// 동적 할당
 	// 1. 런타임 중에 대응 가능
-	// 2. 
 
 	int iInput = 0;
 	scanf_s("%d", &iInput);
@@ -26,6 +27,13 @@ int main()
 	{
 		free(pInt);
 	}
+
+	// 가변 배열 불가능 하다.
+	int index = 100;
+	// int arr[index] = {}; 
+	tArr arr;
+	tArr arr2;
+
 
 
 	return 0;
