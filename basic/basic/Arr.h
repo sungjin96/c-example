@@ -9,5 +9,6 @@ typedef struct _tabArr
 } tArr;
 
 void InitArr(tArr* _pArr);
+void ReleaseArr(tArr* _pArr);
 
 class Array;

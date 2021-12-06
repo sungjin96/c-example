@@ -9,6 +9,13 @@ void InitArr(tArr* _pArr)
 	_pArr->iMaxCount = 2;
 }
 
+void ReleaseArr(tArr* _pArr)
+{
+	free(_pArr->pInt);
+	_pArr->iCount = 0;
+	_pArr->iMaxCount = 0;
+}
+
 class Array {
 	tArr array;
 
