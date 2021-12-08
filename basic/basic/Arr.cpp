@@ -16,6 +16,20 @@ void ReleaseArr(tArr* _pArr)
 	_pArr->iMaxCount = 0;
 }
 
+void PushBack(tArr* _pArr, int _iData)
+{
+	if (_pArr->iMaxCount <= _pArr->iCount)
+	{
+		Reallocate(_pArr);
+	}
+	_pArr->pInt[_pArr->iCount++] = _iData;
+}
+
+void Reallocate(tArr* _Arr)
+{
+
+}
+
 class Array {
 	tArr array;
 

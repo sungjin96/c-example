@@ -7,6 +7,7 @@ int main()
 {
 	tArr s = {};
 	InitArr(&s);
+	PushBack(&s, 5);
 	ReleaseArr(&s);
 
 
