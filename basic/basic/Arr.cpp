@@ -27,7 +27,14 @@ void PushBack(tArr* _pArr, int _iData)
 
 void Reallocate(tArr* _Arr)
 {
-
+	int* pNew = (int*)malloc(_pArr->iMaxCount * 2 * sizeof(int));
+	for (int i = 0; i < _pArr->iCount; ++i)
+	{
+		pNew[i] = _pArr->pInt[i];
+	}
+	free(_pArr->pInt);
+	_pArr->pint = pNew;
+	_pArr->iMaxCount *= 2;
 }
 
 class Array {
