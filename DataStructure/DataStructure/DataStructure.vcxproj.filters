@@ -18,7 +18,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LinkedList.c">
+    <ClCompile Include="SingleLinkedList.c">
+      <Filter>소스 파일\linkList</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleLinkedList.c">
       <Filter>소스 파일\linkList</Filter>
     </ClCompile>
   </ItemGroup>

@@ -39,20 +39,20 @@ void showAll() {
 	printf("\n");
 }
 
-int main(void) {
-	head = (Node*)malloc(sizeof(Node));
-	head->next = NULL;
-
-	addFront(head, 1);
-	addFront(head, 2);
-	addFront(head, 3);
-	addFront(head, 4);
-	addFront(head, 5);
-	showAll();
-	removeFront(head);
-	showAll();
-	freeAll();
-
-	system("pause");
-	return 0;
-}
+//int main(void) {
+//	head = (Node*)malloc(sizeof(Node));
+//	head->next = NULL;
+//
+//	addFront(head, 1);
+//	addFront(head, 2);
+//	addFront(head, 3);
+//	addFront(head, 4);
+//	addFront(head, 5);
+//	showAll();
+//	removeFront(head);
+//	showAll();
+//	freeAll();
+//
+//	system("pause");
+//	return 0;
+//}
