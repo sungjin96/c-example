@@ -1,1 +1,29 @@
-﻿  DataStructure.vcxproj -> D:\Development\C\c-example\DataStructure\x64\Debug\DataStructure.exe
+﻿  Stack.c
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(18,25): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(18,21): warning C4024: 'strcpy': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(18,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(37,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(65,13): warning C4047: '함수': 'char'의 간접 참조 수준이 'char *'과(와) 다릅니다.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(65,10): warning C4024: 'push': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(67,40): warning C4047: '함수': 'char'의 간접 참조 수준이 'char *'과(와) 다릅니다.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(67,37): warning C4024: 'push': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(63,5): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(70,5): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(74,10): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(77,3): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(94,14): warning C4047: '함수': 'char'의 간접 참조 수준이 'Stack *'과(와) 다릅니다.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(94,9): warning C4024: 'push': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(94,16): warning C4020: 'push': 실제 매개 변수가 너무 많습니다.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(97,14): warning C4047: '함수': 'char'의 간접 참조 수준이 'Stack *'과(와) 다릅니다.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(97,9): warning C4024: 'push': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(97,17): warning C4020: 'push': 실제 매개 변수가 너무 많습니다.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(100,20): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(100,20): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(93,4): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(111,14): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(117,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(118,9): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(121,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(127,15): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(129,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Development\C\c-example\DataStructure\DataStructure\Stack.c(130,10): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

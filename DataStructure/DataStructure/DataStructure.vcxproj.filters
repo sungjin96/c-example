@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\linkList">
       <UniqueIdentifier>{d4ea6b42-16b5-4285-b684-04cf4943df55}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\stack">
+      <UniqueIdentifier>{8bcad3fc-a842-4286-8f84-42731155e649}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SingleLinkedList.c">
@@ -23,6 +26,9 @@
     </ClCompile>
     <ClCompile Include="DoubleLinkedList.c">
       <Filter>소스 파일\linkList</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.c">
+      <Filter>소스 파일\stack</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
