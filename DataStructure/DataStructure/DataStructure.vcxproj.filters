@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\stack">
       <UniqueIdentifier>{8bcad3fc-a842-4286-8f84-42731155e649}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\queue">
+      <UniqueIdentifier>{b8fb6245-55f4-4b01-bc5c-b818994bcbf0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SingleLinkedList.c">
@@ -29,6 +32,9 @@
     </ClCompile>
     <ClCompile Include="Stack.c">
       <Filter>소스 파일\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.c">
+      <Filter>소스 파일\queue</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
