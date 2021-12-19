@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define SIZE = 1000
 
-int a[SIZE];
+int a[1000];
 
 int swap(int* a, int* b) {
 	int temp = *a;
