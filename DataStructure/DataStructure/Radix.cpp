@@ -26,6 +26,18 @@ void radixSort(int* a, int n) {
 	각 데이터를 자릿수를 기준으로 분류하므로 가장 큰 자릿수를 D라고 했을 때 O(DN)의 시간 복잡도를 가집니다.
 */
 int main() {
+	int a[MAX];
+	int i, n;
+	scanf("%d", &n);
+
+	for (int i = 0; i < n; i++) {
+		scanf("%d", &a[i]);
+	}
+	radixSort(a, n);
+
+	for (int i = 0; i < n; i++) {
+		printf("%d ", a[i]);
+	}
 
 	return 0;
 }
